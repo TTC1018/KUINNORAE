@@ -12,6 +12,11 @@ C++, Qt를 활용한 유사 노래방 키오스크 프로그램 구현
 [@ChanwooAn](https://github.com/ChanwooAn) - 작동 로직 구현 <br/>
 
 
+## 배포 파일
+
+[실행파일 다운로드](https://github.com/TTC1018/KUINNORAE/raw/main/KUINNORAE_executable.zip)
+
+
 ## 기능
 
 1. 회원가입 (전화번호로 가입)
