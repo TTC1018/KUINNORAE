@@ -801,13 +801,12 @@ void MainWindow::onNewConnection()
     QTcpSocket* clientSocket = _server.nextPendingConnection();
     connect(clientSocket,SIGNAL(readyRead()),this,SLOT(onReadyRead()));
     connect(clientSocket,SIGNAL(stateChanged(QabstractSocket::SocketState)),this,SLOT(onSocketStateChanged(QAbstractSocket::SocketState)));
-    this->conn_D = new connection_Dialog(this);
+
 
     _sockets.push_back(clientSocket);
     for(QTcpSocket* socket:_sockets){
         socket->write(QByteArray::fromStdString(clientSocket->peerAddress().toString().toStdString()+"connected to server !\n"));
     }
-    conn_D->exec();
 }
 
 void MainWindow::onSocketStateChanged(QAbstractSocket::SocketState socketState)

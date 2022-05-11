@@ -21,7 +21,6 @@ SOURCES += \
     User.cpp \
     charge_dialog.cpp \
     charge_dialog2.cpp \
-    connection_dialog.cpp \
     info_dialog.cpp \
     kiosk.cpp \
     login_dialog.cpp \
@@ -37,7 +36,6 @@ HEADERS += \
     User.h \
     charge_dialog.h \
     charge_dialog2.h \
-    connection_dialog.h \
     info_dialog.h \
     kiosk.h \
     login_dialog.h \
@@ -50,7 +48,6 @@ HEADERS += \
 FORMS += \
     charge_dialog.ui \
     charge_dialog2.ui \
-    connection_dialog.ui \
     info_dialog.ui \
     login_dialog.ui \
     logout_dialog.ui \

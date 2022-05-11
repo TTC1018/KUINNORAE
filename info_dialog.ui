@@ -14,7 +14,7 @@
    <string>회원정보</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="Icons.qrc">
+   <iconset resource="../Icons.qrc">
     <normaloff>:/ico/KONKUK.ico</normaloff>:/ico/KONKUK.ico</iconset>
   </property>
   <property name="styleSheet">
@@ -88,7 +88,7 @@ color: rgb(255, 255, 255);</string>
   </widget>
  </widget>
  <resources>
-  <include location="Icons.qrc"/>
+  <include location="../Icons.qrc"/>
  </resources>
  <connections/>
 </ui>

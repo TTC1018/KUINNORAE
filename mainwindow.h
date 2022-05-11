@@ -12,7 +12,6 @@
 #include <QTcpServer>
 #include <QTcpSocket>
 #include "test_dialog.h"
-#include "connection_dialog.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -77,7 +76,6 @@ private:
     logout_Dialog *lt_D;
 
     test_Dialog* t_D;
-    connection_Dialog* conn_D;
     QTcpServer _server;
     QList<QTcpSocket*> _sockets;
 
