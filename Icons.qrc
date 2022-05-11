@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="ICON_phone">ico/phone.ico</file>
+        <file>ico/KONKUK.ico</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>song_charge</class>
+ <widget class="QWidget" name="song_charge">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>노래 충전</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Icons.qrc">
+    <normaloff>:/ico/KONKUK.ico</normaloff>:/ico/KONKUK.ico</iconset>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

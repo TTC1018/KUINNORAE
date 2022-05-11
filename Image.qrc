@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="boybye">../../../../Pictures/사진/앨범아트/boybye.jpg</file>
+    </qresource>
+</RCC>
